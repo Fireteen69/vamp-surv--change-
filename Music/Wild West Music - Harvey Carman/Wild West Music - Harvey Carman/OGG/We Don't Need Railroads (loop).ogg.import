@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c1qxi2fsrpyhl"
+path="res://.godot/imported/We Don't Need Railroads (loop).ogg-1fba086d049e33b951ffe4b900f1146f.oggvorbisstr"
+
+[deps]
+
+source_file="res://Music/Wild West Music - Harvey Carman/Wild West Music - Harvey Carman/OGG/We Don't Need Railroads (loop).ogg"
+dest_files=["res://.godot/imported/We Don't Need Railroads (loop).ogg-1fba086d049e33b951ffe4b900f1146f.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

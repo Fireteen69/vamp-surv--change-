@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://jv1ojiw814lw"
+path="res://.godot/imported/Too Late To Save The Town.ogg-f4947df7809705ac9d63638a16a2f255.oggvorbisstr"
+
+[deps]
+
+source_file="res://FX/Music/Wild West Music - Harvey Carman/Wild West Music - Harvey Carman/OGG/Too Late To Save The Town.ogg"
+dest_files=["res://.godot/imported/Too Late To Save The Town.ogg-f4947df7809705ac9d63638a16a2f255.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

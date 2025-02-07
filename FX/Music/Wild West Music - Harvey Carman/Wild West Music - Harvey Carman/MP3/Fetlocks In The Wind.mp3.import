@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c3c2gcx7cw7nx"
+path="res://.godot/imported/Fetlocks In The Wind.mp3-0a48d4a285d7bbd060af23d96c974c29.mp3str"
+
+[deps]
+
+source_file="res://FX/Music/Wild West Music - Harvey Carman/Wild West Music - Harvey Carman/MP3/Fetlocks In The Wind.mp3"
+dest_files=["res://.godot/imported/Fetlocks In The Wind.mp3-0a48d4a285d7bbd060af23d96c974c29.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

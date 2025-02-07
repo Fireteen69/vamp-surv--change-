@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://ilyd58kxja32"]
+
+[ext_resource type="Texture2D" uid="uid://bdddyk837ffvf" path="res://Skeleton enemy.png" id="1_1xrxa"]
+[ext_resource type="Script" path="res://enemy.gd" id="1_b7wfw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k4d6o"]
+size = Vector2(65, 68)
+
+[node name="Enemy" type="CharacterBody2D"]
+script = ExtResource("1_b7wfw")
+
+[node name="SkeletonEnemy" type="Sprite2D" parent="."]
+scale = Vector2(3, 3)
+texture = ExtResource("1_1xrxa")
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(6.5, -2)
+shape = SubResource("RectangleShape2D_k4d6o")
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
