@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://b7qqjpnkdbk6o"]
+
+[ext_resource type="Script" path="res://Scripts/player.gd" id="1_alyrr"]
+[ext_resource type="Texture2D" uid="uid://dp0k5hq5xyoi4" path="res://Icons/cb.png" id="2_olxte"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oio20"]
+size = Vector2(65, 69)
+
+[node name="Node2D" type="CharacterBody2D"]
+script = ExtResource("1_alyrr")
+
+[node name="PlayerCowboy" type="Sprite2D" parent="."]
+scale = Vector2(0.261752, 0.261752)
+texture = ExtResource("2_olxte")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -2)
+shape = SubResource("RectangleShape2D_oio20")
+
+[node name="Camera2D" type="Camera2D" parent="."]
