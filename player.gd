@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 
-@export var speed = 200
+@export var speed = 250
 func _process(delta: float) -> void:
 	var velocity = Vector2.ZERO
 	if Input.is_action_pressed("walk_right"):

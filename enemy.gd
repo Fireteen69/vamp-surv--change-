@@ -4,8 +4,7 @@ extends CharacterBody2D
 var direction: Vector2 = Vector2.ZERO
 var new_direction = Vector2(0, 1)
 var timer = 0
-var speed = 150
-
+var speed =300
 var rng = RandomNumberGenerator.new()
 
 func _physics_process(delta):
@@ -23,7 +22,7 @@ func _on_timer_timeout():
 		var player_distance = player.position - position
 		if player_distance.length() <= 50:
 			new_direction = player_distance.normalized()
-		elif player_distance.length() <= 700 and timer <= 0:
+		elif player_distance.length() <= 70000000 and timer <= 0:
 			direction = player_distance.normalized()
 		elif timer <= 0:
 			var random_direction = rng.randf()
